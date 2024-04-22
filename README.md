@@ -20,20 +20,26 @@ Pandas and NumPy for data manipulation.
 Matplotlib and Seaborn for data visualization.
 Scikit-Learn for machine learning model building, including preprocessing tools like StandardScaler and MinMaxScaler, and dimensionality reduction using PCA.
 XGBoost for the classification model.
+
 Workflow
 Data Loading and Inspection: Load the dataset and perform initial inspections to understand its structure and content.
+
 Data Preprocessing:
 Recode smoking_history to categorical values.
 Convert categorical variables to a suitable format for modeling using one-hot encoding.
 Normalize numeric features to prepare them for model training.
+
 Exploratory Data Analysis:
 Visualize the relationships between features using a correlation heatmap.
 Examine the distribution of categorical features.
+
 Model Building:
 Apply PCA for dimensionality reduction.
 Train the XGBoost classifier with the processed data.
+
 Model Evaluation:
 Evaluate the model using metrics such as the confusion matrix, classification report, and accuracy score.
 Discuss the potential for using additional metrics and cross-validation for robust assessment.
+
 Conclusion
 The XGBoost model shows promising results, achieving high accuracy in predicting diabetes status. Further enhancements could include more comprehensive metric evaluation, cross-validation for model assessment, and analysis of feature importance to understand the influence of various health indicators.
